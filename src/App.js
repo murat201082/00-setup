@@ -5,7 +5,9 @@
 //import Dede from "./Dede"
 import './App.css';
 //import ConditionComponent from "./ConditionComponent"
-import MapComponent from "./MapComponent";
+//import MapComponent from "./MapComponent";
+//import EventComponent from "./state/./EventComponent"
+import StateComponent from './state/StateComponent';
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
         <GeneratorComponent company = "Fibiler" department = "History"/>
         <Dede ad="Murat Sertkaya"/> */}
         {/* <ConditionComponent/> */}
-        <MapComponent/>
+        {/* <MapComponent/> */}
+        {/* <EventComponent/> */}
+        <StateComponent/>
       </header>
     </div>
   );
